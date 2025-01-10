@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px;
+}
+
+header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+header img{
+    width: 150px;
+    height: 100px;
+}
+header h1:first-of-type{
+    margin-left: auto;
+    width: fit-content;
+}
+
+.frist{
+    color: red;
+    
+}
+header nav{
+    background-color: blue;
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+header nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main h5{
+    padding: 0 10px;
+    font-size: 20px;
+}
+main h5 span {
+    color: red;
+}
+ h2 {
+    color: white;
+    background-color: green;
+    padding: 0 10px;
+}
+
+.intro p {
+    font-size: 16px;
+}
+
+.intro a {
+    color: blue;
+    text-decoration: none;
+}
+
+.intro a:hover {
+    text-decoration: underline;
+}
+
+.green-block {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.form-section form {
+    margin: 10px 0;
+}
+.form-section p:last-of-type{
+    margin-left: 40px;
+    width: fit-content;
+}
+
+.form-section ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.form-section ul li{
+    border: 1px solid black;
+}
+
+
+
+.footer a {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
